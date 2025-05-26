@@ -93,4 +93,4 @@ Since the GPU momery is not a very big problem in GNN,  we did not optimize GPU 
 ```python
   forward_norm = self.model.print_all_x(x, self.edge)
 ```
-which is in the generate_metrics function. Or you could just let the print_all_x directly return the output norm rather than the whole output matrix, then it will have the same GPU memory with normal initializations.
+which is in the generate_metrics function. Or you could just let the print_all_x directly return the output norm rather than the whole output matrix, then it theoritically will have the same GPU memory with normal initializations.
