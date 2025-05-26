@@ -1,5 +1,5 @@
 # SPoGInit
-Code for Exploring and Improving Initialization for Deep Graph Neural Networks: A Signal Propagation Perspective
+Code for Exploring and Improving Initialization for Deep Graph Neural Networks: A Signal Propagation Perspective [TMLR]
 
 # What is SPoGInit?
 It is a Graph Neural Network (GNN) initialization searching method, called Signal Propagation on Graph-guided Initialization. Given a GNN architecture, it optimizes the initialization to stabilize **forward signal propagation (FSP)**, **backward signal propagation (BSP)**, **graph embedding variation(GEV)** as the model depth increases.
